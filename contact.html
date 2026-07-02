@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Sedi.P</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <a href="index.html" class="logo">Sedi<span>.P</span></a>
+  <nav class="nav" id="nav">
+    <a href="index.html">Home</a>
+    <a href="industries.html">Industries</a>
+    <a href="services.html">Services</a>
+    <a href="systems.html">Systems</a>
+    <a href="about.html">About</a>
+    <a class="active" href="contact.html">Contact</a>
+  </nav>
+  <button class="menu-btn" id="menuBtn">Menu</button>
+  <a class="header-cta" href="contact.html">Start a project</a>
+</header>
+
+<main>
+  <section class="page-hero">
+    <p class="eyebrow">Contact</p>
+    <h1>Start your digital build.</h1>
+    <p>Tell Sedi.P what you need: a company website, an internal system, a dashboard, or a full digital platform for your industrial business.</p>
+  </section>
+
+  <section class="section contact">
+    <div>
+      <p class="eyebrow">Project enquiry</p>
+      <h2>Ready to build a website or system for your industrial business?</h2>
+      <p>Send your project details directly to Sedi.P. You can also call, SMS, or email using the contact details below.</p>
+
+      <div class="contact-details">
+        <p><strong>Email:</strong> <a href="mailto:Lesediphaltse@gmail.com">Lesediphaltse@gmail.com</a></p>
+        <p><strong>Call:</strong> <a href="tel:+27682125984">068 212 5984</a></p>
+        <p><strong>SMS:</strong> <a href="sms:+27682125984">068 212 5984</a></p>
+        <p><strong>Location:</strong> Gauteng, South Africa</p>
+        <p><strong>Focus:</strong> Industrial websites and business systems</p>
+      </div>
+    </div>
+
+    <form class="contact-form" id="enquiryForm" action="mailto:Lesediphaltse@gmail.com" method="POST" enctype="text/plain">
+      <input type="hidden" name="_subject" value="New Sedi.P website enquiry" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_template" value="table" />
+
+      <label>
+        Your name
+        <input type="text" name="name" placeholder="Your name" required />
+      </label>
+
+      <label>
+        Email address
+        <input type="email" name="email" placeholder="Email address" required />
+      </label>
+
+      <label>
+        Contact number
+        <input type="tel" name="phone" placeholder="Phone number" />
+      </label>
+
+      <label>
+        Company name
+        <input type="text" name="company" placeholder="Company name" />
+      </label>
+
+      <label>
+        Service needed
+        <select name="service" required>
+          <option value="Business website">Business website</option>
+          <option value="Custom management system">Custom management system</option>
+          <option value="Dashboard / reporting">Dashboard / reporting</option>
+          <option value="Client or staff portal">Client or staff portal</option>
+          <option value="Not sure yet">Not sure yet</option>
+        </select>
+      </label>
+
+      <label>
+        Project message
+        <textarea name="message" placeholder="Tell us about your project" required></textarea>
+      </label>
+
+      <button type="submit" class="btn primary">Submit enquiry</button>
+      <p class="form-note">This version works from your computer by opening an email draft addressed to Lesediphaltse@gmail.com. For fully automatic sending, upload the website to hosting and connect FormSubmit, Netlify Forms, EmailJS, or a backend email API.</p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div class="logo">Sedi<span>.P</span></div>
+  <p>Websites and systems for industrial businesses.</p>
+  <p>© 2026 Sedi.P.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

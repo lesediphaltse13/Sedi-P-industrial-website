@@ -1,0 +1,17 @@
+Sedi.P Contact Form Setup
+
+The previous FormSubmit error happened because the website was opened directly as an HTML file from the computer. FormSubmit requires the site to run through a web server or live hosting.
+
+Current fixed version:
+- Submit Enquiry opens an email draft addressed to Lesediphaltse@gmail.com.
+- The form fills the email body with the client name, email, number, company, selected service, and message.
+- Call button: 068 212 5984
+- SMS button: 068 212 5984
+
+For direct automatic email sending without opening the user's email app, use one of these after hosting:
+1. Netlify Forms if hosting on Netlify.
+2. FormSubmit after publishing the website online.
+3. EmailJS.
+4. A backend API using Node/C#/PHP with SMTP.
+
+Recommended for Sedi.P now: use the mailto version for testing, then switch to Netlify Forms or EmailJS when the site is online.
